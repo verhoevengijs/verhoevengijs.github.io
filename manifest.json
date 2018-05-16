@@ -1,17 +1,12 @@
 {
-  "name": "Lijst",
-  "description": "bla bla bla",
-  "version": "0.0.0.1",
-  "manifest_version": 2,
-  "icons": {
+  "short_name": "List",
+  "name": "list",
+  "icons": [
 
-  },
-  "app": {
-    "url": [
-      "https://verhoevengijs.github.io/"
-    ],
-    "launch": {
-      "web_url": "https://verhoevengijs.github.io/"
-    }
-  }
+  ],
+  "start_url": "https://verhoevengijs.github.io/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/list/",
+  "theme_color": "#3367D6"
 }
